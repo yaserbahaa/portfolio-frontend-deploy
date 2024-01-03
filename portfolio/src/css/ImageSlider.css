@@ -1,0 +1,13 @@
+/* .slick-slider{
+    background-color: red;
+}
+.slick-slide{
+    background-color: green;
+}
+.slick-dots{
+background-color: aqua;
+} */
+.slick-prev,
+.slick-next {
+  display: none !important; /* Use !important to override any inline styles */
+}

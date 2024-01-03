@@ -1,0 +1,26 @@
+.AboutMeCont{
+    justify-content: center;
+    display: flex;
+    gap: 87px;
+    margin-top: 180px;
+
+}
+
+.AboutMeTitle{
+    writing-mode: vertical-rl;
+    color: #abeeff;
+    font-size: 57px;
+    font-weight: 900;
+    margin: 0px;
+    font-family: Poppins,sans-serif;
+}
+.AboutMe{
+    color: white;
+    font-family: Mulish,sans-serif;
+    font-size: 1.35rem;
+    font-weight: 500;
+    line-height: 1.6;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
