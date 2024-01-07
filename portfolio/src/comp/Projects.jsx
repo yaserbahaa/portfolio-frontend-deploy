@@ -1,14 +1,14 @@
 import '../css/Projects.css'
 import ImageSlider from './ImageSlider';
-
+import test from '../assets/toplay-profile.png'
 
 export default function Projects(){
       const images = [
-    'http://localhost:5173/src/assets/toplay-home.png',
-    'http://localhost:5173/src/assets/toplay-home2.jpg',
-    'http://localhost:5173/src/assets/toplay-profile.png',
-    'http://localhost:5173/src/assets/toplay-sto.png',
-    'http://localhost:5173/src/assets/toplay-upload.png',
+    'https://yaserbahaa.onrender.com/toplay-home.png',
+    test,
+    'https://yaserbahaa.onrender.com/src/assets/toplay-profile.png',
+    'https://yaserbahaa.onrender.com/src/assets/toplay-sto.png',
+    'https://yaserbahaa.onrender.com/src/assets/toplay-upload.png',
     // Add more image URLs as needed
   ]; 
     return(<>
