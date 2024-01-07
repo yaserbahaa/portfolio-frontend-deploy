@@ -7,12 +7,14 @@
 }
 
 .AboutMeTitle{
+    display: flex;
     writing-mode: vertical-rl;
     color: #abeeff;
     font-size: 57px;
     font-weight: 900;
     margin: 0px;
     font-family: Poppins,sans-serif;
+    justify-content: center;
 }
 .AboutMe{
     color: white;

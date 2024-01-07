@@ -1,21 +1,51 @@
 import '../css/Projects.css'
 import ImageSlider from './ImageSlider';
-import test from '../assets/toplay-profile.png'
+import homeToplay from '../assets/lap-toplay/toplay-home.png'
+import homeToplay2 from '../assets/lap-toplay/toplay-home2.jpg'
+import profileToplay from '../assets/lap-toplay/toplay-profile.png'
+import stoToplay from '../assets/lap-toplay/toplay-sto.png'
+import uploadToplay from '../assets/lap-toplay/toplay-upload.png'
+
+import homeToplayIpad from '../assets/ipad-toplay/home-ipad-toplay.jpg'
+import homeToplay2Ipad from '../assets/ipad-toplay/home2-ipad-toplay.jpg'
+import profileToplayIpad from '../assets/ipad-toplay/profile-ipad-toplay.jpg'
+import stoToplayIpad from '../assets/ipad-toplay/sto-ipad-toplay.jpg'
+import uploadToplayIpad from '../assets/ipad-toplay/upload-ipad-toplay.jpg'
+
+import homeToplayPhone from '../assets/phone-toplay/home-phone-toplay.jpg'
+import homeToplay2Phone from '../assets/phone-toplay/home2-phone-toplay.jpg'
+import profileToplayPhone from '../assets/phone-toplay/profile-phone-toplay.jpg'
+import stoToplayPhone from '../assets/phone-toplay/sto-phone-toplay.jpg'
+import uploadToplayPhone from '../assets/phone-toplay/upload-phone-toplay.jpg'
+
 
 export default function Projects(){
       const images = [
-    'https://yaserbahaa.onrender.com/toplay-home.png',
-    test,
-    'https://yaserbahaa.onrender.com/src/assets/toplay-profile.png',
-    'https://yaserbahaa.onrender.com/src/assets/toplay-sto.png',
-    'https://yaserbahaa.onrender.com/src/assets/toplay-upload.png',
-    // Add more image URLs as needed
+        homeToplay,
+        homeToplay2,
+        profileToplay,
+        stoToplay,
+        uploadToplay,
   ]; 
+  const images2 = [
+    homeToplayIpad,
+    homeToplay2Ipad,
+    profileToplayIpad,
+    stoToplayIpad,
+    uploadToplayIpad, 
+]; 
+const images3 = [
+  homeToplayPhone,
+  homeToplay2Phone,
+  profileToplayPhone,
+  stoToplayPhone,
+  uploadToplayPhone, 
+];
     return(<>
     <h1 className='projTitle'>PROJECT</h1>
     <div className="projCont">
         <div className='projImg1'>
-        <ImageSlider images={images} />
+        <ImageSlider images={images} images2={images2} images3={images3}/>
         </div>
         <div className='projAbout1'>
         <h1 className='projAbout1Title'>Toplay</h1>

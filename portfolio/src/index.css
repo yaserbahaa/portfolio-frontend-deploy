@@ -2,8 +2,348 @@ body{
     margin: 0px;
     padding: 0px;
     background: radial-gradient(circle at 174% 50% ,#99ffdf, #000000);
+    overflow-x: hidden;
+
+}
+html{
+    overflow-x: hidden;
 }
 
 
+@media (max-width:1100px){
+.projCont{
+    height: 540px;
+}
+.ipad{
+    display: block;
+}
+.lap{
+    display: none;
+}
+}
+
+@media (max-width:636px){
+    .projCont{
+        height: 540px;
+    }
+    .phone{
+        display: block;
+    }
+    .ipad{
+        display: none;
+    }
+    .lap{
+        display: none;
+    }
+    }
+
+@media (max-width:648px){
+    .projAbout1Title{
+        font-size:39px ;
+    }
+}
+@media (max-width:568px){
+    .projAbout1Title{
+        font-size:32px ;
+    }
+    .projAbout1Title_{
+        font-size:16px ;
+    }
+}
+
+@media (max-width: 468px){
+    .projAbout1Title {
+        font-size: 25px;
+}
+    .projAbout1Title_ {
+        font-size: 14px;
+}
+    }
+    @media (max-width: 862px){
+        .intrAbout {
+            font-size: 59px;
+    }
+        .intrAboutText {
+            font-size: 19.6px;
+    }
+}
+@media (max-width: 826px){
+    .intrAbout {
+        font-size: 53px;
+}
+    .intrAboutText {
+        font-size: 17.6px
+}
+}
+@media (max-width: 784px){
+    .intrAbout {
+        font-size: 48px;
+}
+    .intrAboutText {
+        font-size: 15.99px
+}
+}
+@media (max-width: 784px){
+    .intrAbout {
+        font-size: 48px;
+}
+    .intrAboutText {
+        font-size: 15.99px
+}
+.intrAboutCont{
+    gap: 183px;
+}
+}
+@media (max-width: 728px){
+    .intrAbout {
+        font-size: 44px;
+}
+    .intrAboutText {
+        font-size: 15px
+}
+.intrAboutCont{
+    gap: 150px;
+}
+}
+@media (max-width: 672px){
+    /* .intrOwnerImg{
+        width: 188px;
+        height: 192px;
+    } */
+    .navbarMail{
+        font-size: 12px;
+    }
+    .navbarTitleOwnerName{
+        font-size: 12px;
+    }
+    .navbarTitle{
+        font-size: 12px;
+    }
+    .intrAbout {
+        font-size: 42px;
+}
+    .intrAboutText {
+        font-size: 14px
+}
+.intrAboutCont{
+    gap: 132px;
+}
+}
+
+@media (max-width: 628px){
+    /* .intrOwnerImg{
+        width: 188px;
+        height: 192px;
+    } */
+    /* .navbarMail{
+        font-size: 12px;
+    }
+    .navbarTitleOwnerName{
+        font-size: 12px;
+    }
+    .navbarTitle{
+        font-size: 12px;
+    }
+    .intrAbout {
+        font-size: 42px;
+}
+    .intrAboutText {
+        font-size: 14px
+} */
+.intrAboutCont{
+    gap: 39px;
+}
+}
+@media (max-width: 596px){
+    /* .intrOwnerImg{
+        width: 188px;
+        height: 192px;
+    } */
+    /* .navbarMail{
+        font-size: 12px;
+    }
+    .navbarTitleOwnerName{
+        font-size: 12px;
+    }
+    .navbarTitle{
+        font-size: 12px;
+    }
+    .intrAbout {
+        font-size: 42px;
+}
+    .intrAboutText {
+        font-size: 14px
+} */
+.tecTitle{
+    display: none;
+}
+}
 
 
+@media (max-width:541px){
+    .navbarMail{
+        font-size: 12px;
+    }
+    .navbarTitleOwnerName{
+        font-size: 12px;
+    }
+    .navbarTitle{
+        font-size: 12px;
+    }
+    .intrAbout {
+        font-size: 42px;
+        margin-top: 0px;
+}
+    .intrAboutText {
+        font-size: 14px
+} 
+
+.intrAboutCont {
+    gap: 35px;
+    display: flex;
+    width: 100%;
+    height: 385px;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    margin-top: 45px;
+    flex-direction: column-reverse;
+}
+.intrAbout_ {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+.intrOwnerImgCont {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tecCont {
+
+    margin-top: 37px;
+}
+}
+@media (max-width:481px){
+    .navbarMail{
+        display: none;
+    }
+    .navbarIcon{
+        display: none;
+    }
+    .tecCont{
+        flex-wrap: wrap;
+    }
+    .navbarTitleOwnerName{
+        font-size: 12px;
+    }
+    .navbarTitle{
+        font-size: 12px;
+    }
+    .intrAbout {
+        font-size: 42px;
+        margin-top: 0px;
+}
+    .intrAboutText {
+        font-size: 14px
+} 
+
+.intrAboutCont {
+    gap: 35px;
+    display: flex;
+    width: 100%;
+    height: 385px;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    margin-top: 14px;
+    flex-direction: column-reverse;
+}
+.intrAbout_ {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+.intrOwnerImgCont {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tecCont {
+
+    margin-top: 37px;
+}
+}
+@media (max-width:387px){
+    .AboutMeCont {
+        justify-content: center;
+        display: flex;
+        gap: 15px;
+        margin-top: 180px;
+    }
+    .ContactMeTitle{
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width:635px){
+    .ContactMeMail{
+        font-size: 12px;
+    }
+    .ContactMeLinked{
+        font-size: 12px;
+    }
+    .ContactMeLinkedCont{
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:551px){
+    .ContactMeTitle{
+        margin-left: 35px;
+    }
+    /* .ContactMeMail{
+        font-size: 12px;
+    }
+    .ContactMeLinked{
+        font-size: 12px;
+    } */
+}
+@media (max-width:470px){
+    .ContactMeTitle{
+        margin-left: 35px;
+    }
+    .ContactMeMail{
+        display: none;
+    }
+    .ContactMeLinked{
+        display: none;
+    }
+    .ContactMeCont{
+        gap: 4%;
+    }
+}
+@media (max-width:296px){
+    .ContactMeTitle{
+        font-size: 15px;
+    }
+}
+@media (max-width:216px){
+    .ContactMeTitle{
+        display: none;
+    }
+    .ContactMeCont{
+        justify-content: center;
+    }
+}
+@media (max-width:298px){
+    .intrAbout {
+        font-size: 31px;
+    }
+    .intrAboutText {
+        font-size: 11px;
+    }
+
+}

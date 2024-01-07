@@ -22,9 +22,10 @@
 .projAbout1{
     display: flex;
     flex-direction: column;
+    overflow: auto;
 }
 .projAbout1Title{
-    margin-top: 63px;
+    margin-top: 0px;
     margin-bottom: 9px;
     color: #abeeff;
     font-weight: 900;

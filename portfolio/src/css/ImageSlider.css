@@ -11,3 +11,14 @@ background-color: aqua;
 .slick-next {
   display: none !important; /* Use !important to override any inline styles */
 }
+
+.slick-slider{
+  width: 100%;
+  height: 100%;
+}
+.ipad{
+  display: none;
+}
+.phone{
+  display: none;
+}

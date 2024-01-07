@@ -2,8 +2,6 @@
     background-color: #011a1a;
     display: flex;
     /* justify-content: center; */
-    align-content: center;
-    flex-wrap: wrap;
     margin-top: 222px;
     height: 151px;
 }
@@ -15,6 +13,10 @@
     margin: 0px;
     width: 50%;
     margin-left: 78px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
 .ContactMeMailCont{
     display: flex;
