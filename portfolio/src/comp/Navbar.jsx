@@ -6,7 +6,7 @@ export default function Navbar(){
     return(<>
     <div className="navbar">
         <div className='navbarMailCont'>
-            <a style={{textDecoration:"none"}} href="mailto:yaser-bahaa@hotmail.com">
+            <a style={{textDecoration:"none"}} target="_blank" href="mailto:yaser-bahaa@hotmail.com">
         <p className='navbarMail'>yaser-bahaa@hotmail.com</p> 
             </a>
         </div>
